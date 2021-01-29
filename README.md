@@ -48,7 +48,7 @@ additionally we need to patch some files we copied from SDL, get sdl2.patch
 from this repo and run
 
     cd ~/android-hello
-    patch -p1 < SDL2.patch
+    patch -p1 < sdl2.patch
 
 current SDL2 repo is utterly broken for any android API < 26, so we need
 to cd into the SDL repo and check out the latest commit that wasn't broken:
